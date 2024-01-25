@@ -1,5 +1,11 @@
 function getAllLetters(str) {
     // your code here
+    arr=[]
+    for(let x of str){
+
+        arr.push(x)
+    }
+return arr
     
 }
 
