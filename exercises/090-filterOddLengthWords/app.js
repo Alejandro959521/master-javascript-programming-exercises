@@ -1,5 +1,17 @@
 function filterOddLengthWords(words) {
     // your code here
+
+    
+
+        const newarray = words.filter(function(value){
+    
+            return value.length%2!=0
+    
+        });
+        
+    return newarray
+    
+    
     
 }
 
