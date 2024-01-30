@@ -1,5 +1,15 @@
 function findSmallestElement(arr) {
     // your code here
+if (arr.length < 1) return 0
+else{
+    y = Infinity
+    for (let x of arr){
+          
+            if (x < y) y=x 
+
+    }
+return y
+}
 
 }
 

@@ -1,6 +1,15 @@
 function joinArrayOfArrays(arr) {
   // your code here
-  
+newarr=[]
+
+for (let x of arr){
+
+  for (let y of x){ 
+
+    newarr.push(y)
+  }
+}
+  return newarr
 }
 
 let output = joinArrayOfArrays([

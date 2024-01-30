@@ -16,7 +16,19 @@ let customerData = {
 function greetCustomer(firstName) {
   let greeting = '';
   // your code here
+
+    for (let x  in customerData){
+
+      //console.log(customerData[x])
+      for (let y in x){
+
+        console.log(y)
+
+      }
+    }
 	
+
+
   return greeting;
 }
 
